@@ -1,3 +1,3 @@
-import main_menu
+import app.main as main
 
-main_menu.main_menu()
+main.main_menu()

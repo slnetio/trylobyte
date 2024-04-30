@@ -1,7 +1,7 @@
 import os
 import requests
 import tabulate
-import main_menu
+import app.main as main
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -43,4 +43,4 @@ def menu():
         elif selection == 0:
             running = False
     else:
-        main_menu.main_menu()
+        main.main_menu()
