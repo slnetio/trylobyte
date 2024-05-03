@@ -1,0 +1,31 @@
+#title {
+    text-style: bold;
+    padding: 1 2;
+    color: auto;
+    width: 33%;
+}
+#ui-toggle {
+    color: auto;
+    width: 33%;
+    text-align: right;
+}
+#status {
+    padding: 1 2;
+    color: auto;
+    width: 33%;
+    content-align-horizontal: right;
+    content-align-vertical: bottom;
+    height: auto;
+}
+TitleHeader {
+    color: auto;
+    padding: 0 1;
+    border: heavy grey;
+    layout: horizontal;
+}
+MainMenu {
+    color: auto;
+    padding: 0 1;
+    border: heavy grey;
+    layout: horizontal;
+}
